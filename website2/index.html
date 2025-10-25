@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Side Scroller Example</title>
+<style>
+  body {
+    margin: 0;
+    overflow: hidden;
+  }
+
+  .game-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background: url('background.png');
+    background-size: cover;
+    animation: none;
+  }
+
+  .character {
+    position: absolute; 
+    bottom: 100px; /* position from bottom */
+    left: 100px;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 80px;
+    background: url('character.png') center/contain no-repeat;
+  }
+</style>
+</head>
+<body>
+
+<div class="game-container" id="game">
+  <div class="character" id="character"></div>
+</div>
+
+<script>
+  const game = document.getElementById('game');
+  let backgroundPosition = 0;
+  let movingRight = false;
+  let movingLeft = false;
+  const speed = 5; // pixels per frame
+
+  // Key down events
+  document.addEventListener('keydown', (e) => {
+    if (e.code === 'ArrowRight') movingRight = true;
+    if (e.code === 'ArrowLeft') movingLeft = true;
+  });
+
+  document.addEventListener('mousedown', (e) => {
+    if (e.button === 0) movingRight = true;
+  });
+
+  // Key up events
+  document.addEventListener('keyup', (e) => {
+    if (e.code === 'ArrowRight') movingRight = false;
+    if (e.code === 'ArrowLeft') movingLeft = false;
+  });
+
+  document.addEventListener('mouseup', (e) => {
+    if (e.button === 0) movingRight = false;
+  });
+
+  function update() {
+    if (movingRight) backgroundPosition -= speed;
+    if (movingLeft) backgroundPosition += speed;
+    game.style.backgroundPositionX = backgroundPosition + 'px';
+
+    requestAnimationFrame(update);
+  }
+
+  update();
+</script>
+
+</body>
+</html>
