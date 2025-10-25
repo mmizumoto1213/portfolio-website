@@ -3,39 +3,6 @@ body {
   font-family: Arial, sans-serif;
 }
 
-#header {
-  display: flex;
-  position: fixed;
-  justify-content: flex-end;
-  background-color: white;
-  width: 100%;
-  padding: 10px;
-}
-
-#home-icon {
-  width: 24px;
-  height: 24px;
-  background-image: url('home-icon.png');
-  background-size: cover;
-  margin-left: 10px;
-}
-
-#linkedin-icon {
-  width: 24px;
-  height: 24px;
-  background-image: url('linkedin-icon.png');
-  background-size: cover;
-  margin-left: 10px;
-}
-
-#github-icon {
-  width: 24px;
-  height: 24px;
-  background-image: url('github-icon.png');
-  background-size: cover;
-  margin-left: 10px;
-}
-
 #intro {
   background-color: rgb(9, 7, 19);
   color: white;

@@ -4,45 +4,51 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Move the Character</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="./styles/header.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
+  <!-- header section start -->
   <div id="header">
-    <div id="home-icon"></div>
-    <div id="linkedin-icon"></div>
-    <div id="github-icon">
-      <i class="bi bi-github"></i>
+    <div class="button-container">Home</div>
+    <div id="center-space"></div>
+    <div class="button-container">
+      <div id="icon">
+        <button id="js-linkedin-button" class="icon-button">
+          <i class="fab fa-linkedin"></i>
+        </button>
+      </div>
+      <div id="icon">
+        <button id="js-github-button" class="icon-button">
+          <i class="fab fa-github"></i>
+        </button>
+      </div>
     </div>
   </div>
+  <!-- header section end -->
+
   <div id="intro">
-    <div id="intro-text">Welcome to the Game!</div>
-    <div id="intro-picture">
-      <img src="computer.png">
-    </div>
+    <div id="intro-text">Welcome!</div>
   </div>
-  <div id="projects-title-container">
+  <!-- <div id="projects-title-container">
     <div id="projects-title">My Projects</div>
   </div>
   <div id="projects-grid">
     <div id="project">
-      <!-- <div class="project-image">
-        <img src="project1.png" alt="Project 1">
-      </div> -->
+
       <div class="project-description">
         <h3>Project 1</h3>
         <p>This is a description of Project 1.</p>
       </div>
     </div>
     <div id="project">
-      <!-- <div class="project-image">
-        <img src="project1.png" alt="Project 1">
-      </div> -->
       <div class="project-description">
         <h3>Project 1</h3>
         <p>This is a description of Project 1.</p>
       </div>
-    </div>
+    </div> -->
 
-  <script src="movement.js"></script>
+  <script type="module" src="./scripts/script.js"></script>
 </body>
 </html>
