@@ -2,12 +2,16 @@
   display: flex;
   position: fixed;
   justify-content: center;
+  /* background-color: white; */
   background-color: rgb(30, 33, 36);
   top: 0;
-  width: 100%;
+  margin-left: 400px;
+  margin-right: 400px;
+  width: calc(100% - 800px);
   height: 40px;
   align-items: center;
-  border: none;
+  /* border: none; */
+  border-bottom: 1px solid #444;
 }
 
 #center-space {
@@ -19,6 +23,20 @@
 
 #header i:hover {
   color: gray;
+}
+
+.button-container-home {
+  /* flex: 1; */
+  height: 100%;
+  width: 200px;
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
+  cursor: pointer;
+  /* background-color: rgb(30, 33, 36); */
+  display: flex;
+  align-items: center;
+  margin-left: 25px;
 }
 
 .button-container {
