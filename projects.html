@@ -4,30 +4,73 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Move the Character</title>
-  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles/body.css">
   <link rel="stylesheet" href="./styles/header.css">
+  <link rel="stylesheet" href="./styles/layout.css">
   <link rel="stylesheet" href="./styles/sidebar.css">
+  <link rel="stylesheet" href="./styles/text.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
-  <div id="main-content">
-    <div id="title-text">Projects</div>
-    <div id="info-text">INFORMATION ABOUT ME</div>
-    <div id="projects-grid">
-      <!-- Project items will go here -->
-      <div class="project-item">
-        <h3>Project 1</h3>
-        <p>Description of Project 1.</p>
+  <div class="container">
+    <div class="left-bar"></div>
+    <div class="center-bar">
+
+      <div class="header">
+        <div class="button-container-home">Home</div>
+        <div class="center-space"></div>
+        <div class="button-container">
+          <div class="icon">
+            <button class="icon-button" id="js-linkedin-button">
+              <i class="fab fa-linkedin"></i>
+            </button>
+          </div>
+          <div class="icon">
+            <button class="icon-button" id="js-github-button">
+              <i class="fab fa-github"></i>
+            </button>
+          </div>
+        </div>
       </div>
-      <div class="project-item">
-        <h3>Project 2</h3>
-        <p>Description of Project 2.</p>
+
+      <div class="below-header">
+
+        <div class="sidebar">
+          <div class="sidebar-note">Sections</div>
+          <div class="sidebar-section" id="js-intro">Introduction</div>
+          <div class="sidebar-section" id="js-about">About Me</div>
+          <div class="sidebar-section" id="js-projects">Projects</div>
+          <div class="sidebar-section" id="js-skills">Skills & Tools</div>
+          <div class="sidebar-section" id="js-education">Education</div>
+        </div>
+
+        <div class="main-content">
+          <div class="title-text">Projects</div>
+          <div class="info-text">Every repo tells a story — here are a few of mine!</div>
+          <div class="projects-grid">
+            <!-- Project items will go here -->
+            <div class="project-item">
+              <h3>Project 1</h3>
+              <p>Description of Project 1.</p>
+            </div>
+            <div class="project-item">
+              <h3>Project 2</h3>
+              <p>Description of Project 2.</p>
+            </div>
+            <div class="project-item">
+              <h3>Project 3</h3>
+              <p>Description of Project 3. LDKASDSAD AAAAAAA AAAAAAAAAA AAAAAAAAA AAAAAAAA AAAAAAAAA AAAAAAAAAAAA AAAAAAAAAA AAAAAAAAAAA AAAAAAAAAAAAAA</p>
+            </div>  
+          </div>
+        </div>
+
       </div>
-      <div class="project-item">
-        <h3>Project 3</h3>
-        <p>Description of Project 3. LDKASDSAD AAAAAAA AAAAAAAAAA AAAAAAAAA AAAAAAAA AAAAAAAAA AAAAAAAAAAAA AAAAAAAAAA AAAAAAAAAAA AAAAAAAAAAAAAA</p>
-      </div>  
+
     </div>
+    <div class="right-bar"></div>
   </div>
 
   <script type="module" src="./scripts/script.js"></script>

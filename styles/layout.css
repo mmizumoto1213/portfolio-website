@@ -9,7 +9,7 @@ body {
   height: 100vh;
 }
 
-@media screen and (max-width: 1920px) {
+@media screen and (max-width: 1760px) {
   .center-bar {
     width: 100%;
   }
@@ -27,9 +27,9 @@ body {
   }
 }
 
-@media screen and (min-width: 1921px) {
+@media screen and (min-width: 1761px) {
   .center-bar {
-    width: 1920px;
+    width: 1760px;
   }
 
   .left-bar {
@@ -62,5 +62,4 @@ body {
 
 .main-content {
   flex: 1;
-  background-color: white;
 }

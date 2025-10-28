@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', Arial;
+  color: white;
+  background-color: rgb(25, 28, 30);
+}
+
+.header i:hover {
+  color: rgb(199, 199, 199);
+}
+
+.button-container-home,
+.button-container,
+.sidebar-note {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.icon-button {
+  font-size: 35px;
+}
+
+.sidebar-section {
+  font-size: 20px;
+}
+
+.title-text {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.info-text {
+  font-size: 20px;
+}
+
+.description {
+  font-size: 16px;
+}
