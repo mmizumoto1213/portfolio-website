@@ -1,11 +1,9 @@
 .sidebar {
   font-family: Arial, sans-serif;
-  top: 41px;
-  margin: 0 0 0 400px;
+  margin: 0;
   width: 250px;
   background-color: rgb(30, 33, 36);
-  box-sizing: border-box;
-  position: fixed;
+  /* box-sizing: border-box; */
   height: 100%;
   padding: 5px;
   border-right: 1px solid #444;
@@ -29,26 +27,4 @@
 
 .sidebar-section:hover {
   background-color: rgb(50, 53, 56);
-}
-
-.left-bar,
-.right-bar {
-  top: -40px;
-  position: fixed;
-  width: 399px;
-  z-index: 100;
-  /* background-color: white; */
-  /* border-right:rgb(50, 53, 56) solid 1px; */
-  /* border-right: red solid 1px; */
-  height: 100%;
-}
-
-.left-bar {
-  left: 0;
-  border-right:rgb(50, 53, 56) solid 1px;
-}
-
-.right-bar {
-  right: 0;
-  border-left: rgb(50, 53, 56) solid 1px;
 }

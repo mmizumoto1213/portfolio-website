@@ -1,27 +1,24 @@
-#header {
+.header {
   display: flex;
-  position: fixed;
   justify-content: center;
-  /* background-color: white; */
+  background-color: white;
   background-color: rgb(30, 33, 36);
   top: 0;
-  margin-left: 400px;
-  margin-right: 400px;
-  width: calc(100% - 800px);
+  width: 100%;
   height: 40px;
   align-items: center;
-  /* border: none; */
+  border: none;
   border-bottom: 1px solid #444;
 }
 
-#center-space {
+.center-space {
   flex: 1;
   flex-shrink: 0;
   width: 0;
   background-color: tomato;
 }
 
-#header i:hover {
+.header i:hover {
   color: gray;
 }
 
@@ -52,8 +49,6 @@
   align-items: center;
   justify-content: center;
 }
-
-
 
 .icon-button {
   /* border: none; */
