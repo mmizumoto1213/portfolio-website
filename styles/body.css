@@ -25,4 +25,20 @@
   background-color: rgb(50, 53, 56);
   padding: 15px;
   border-radius: 10px;
+  cursor: pointer;
+}
+
+.project-tag {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: rgb(70, 73, 76);
+  bottom: 0;
+}
+
+.tag {
+  flex: initial;
+  border: 1px solid #999999;
+  border-radius: 3px;
+  padding: 1px 5px;
 }

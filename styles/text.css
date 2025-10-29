@@ -18,6 +18,7 @@ body {
 
 .icon-button {
   font-size: 35px;
+  color: white;
 }
 
 .sidebar-section {
@@ -25,14 +26,52 @@ body {
 }
 
 .title-text {
-  font-size: 40px;
+  font-size: 50px;
   font-weight: 700;
 }
 
 .info-text {
-  font-size: 20px;
+  font-size: 30px;
+  font-weight: 600;
+  color: rgb(180, 180, 180);
 }
 
 .description {
+  font-size: 20px;
+}
+
+.project-title {
+  font-size: 25px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.project-description {
+  margin-top: 10px;
   font-size: 16px;
+}
+
+.project-tags {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+li {
+  margin-left: 30px;
+}
+
+.project-back-button {
+  font-size: 20px;
+  cursor: pointer;
+  color: rgb(100, 100, 100);
+}
+
+.github-link {
+  font-size: 20px;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: rgb(160, 62, 160);
 }
