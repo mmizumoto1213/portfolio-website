@@ -21,6 +21,15 @@ body {
   color: white;
 }
 
+.resume-button {
+  font-size: 30px;
+  color: white;
+}
+
+.resume-button:hover {
+  color: rgb(199, 199, 199);
+}
+
 .sidebar-section {
   font-size: 20px;
 }
@@ -60,10 +69,12 @@ li {
   margin-left: 30px;
 }
 
-.project-back-button {
+.project-back-button,
+.next-page,
+.prev-page {
   font-size: 20px;
   cursor: pointer;
-  color: rgb(100, 100, 100);
+  color: rgb(198, 198, 198);
 }
 
 .github-link {
@@ -76,8 +87,9 @@ li {
   background-color: rgb(160, 62, 160);
 }
 
-.skill-category {
-  font-size: 22px;
+.skill-category,
+.degree {
+  font-size: 30px;
   font-weight: 600;
   margin-top: 20px;
 }
@@ -90,4 +102,24 @@ li {
   border: 1px solid rgb(100, 100, 100);
   padding: 5px 10px;
   border-radius: 5px;
+}
+
+.university {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.graduation {
+  font-size: 20px;
+  font-style: italic;
+  color: rgb(200, 200, 200);
+}
+
+.next-page,
+.prev-page {
+  display: inline-block;
+}
+
+.next-page {
+  right: 0;
 }

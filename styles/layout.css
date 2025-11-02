@@ -63,3 +63,10 @@ body {
 .main-content {
   flex: 1;
 }
+
+.page-selector {
+  display: flex;              /* Use flexbox layout */
+  justify-content: space-between; /* Push buttons to opposite sides */
+  margin-top: 20px;           /* Optional spacing from text above */
+  width: 100%;                /* Full width of container */
+}
