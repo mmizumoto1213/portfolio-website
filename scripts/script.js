@@ -182,7 +182,7 @@ document.getElementById("js-live-asl-translator").addEventListener("click", func
   });
 
   document.getElementById('js-github-link').addEventListener('click', function() {
-    window.open('https://github.com/doanhandonly/CSE151B_Project', '_blank');
+    window.open('https://github.com/doanhandonly/CSE151B_Project/tree/matthew-ken-cnn-only', '_blank');
   });
 
   document.getElementById('js-report-link').addEventListener('click', function() {
